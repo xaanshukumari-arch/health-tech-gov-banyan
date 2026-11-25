@@ -13,3 +13,4 @@
 
 ## Purpose
 This mapping explains how existing project tasks can be transferred from Jira or Excel into GitHub Issues and Projects.
+This document supports the migration of project tasks from Jira or Excel into GitHub.
