@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+    commands:
+      - python --version
+  pre_build:
+    commands:
+      - python -m compileall -q src
+  build:
+    commands:
+      - python src/index.py
+
+artifacts:
+  files:
+    - src/index.py
