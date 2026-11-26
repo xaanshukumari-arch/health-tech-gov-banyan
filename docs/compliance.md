@@ -2,16 +2,34 @@
 
 ## 1. NHS Data Security and Protection Toolkit
 
-The NHS Data Security and Protection Toolkit (DSPT) helps healthcare organisations assess and improve how they protect personal and health information.
+The NHS Data Security and Protection Toolkit (DSPT) is an online self-assessment framework for organisations that access NHS patient data and systems. Organisations use it to assess their controls, identify gaps, and provide evidence of their data-security practices.
 
-### Important principles
+### Data security principles
 
-- Protect patient information from unauthorized access.
-- Allow access only to authorized users.
-- Keep systems and information secure.
-- Maintain backups and recovery procedures.
-- Monitor and report security incidents.
-- Train staff in data protection.
+- Make staff responsibilities clear and provide regular information-governance and security training.
+- Use personal and confidential data only for an authorised purpose, and handle it lawfully and confidentially.
+- Identify systems and services that store or process sensitive data, and maintain ownership and risk information for them.
+- Maintain policies and procedures for data protection, records management, security incidents, and business continuity.
+- Assess suppliers and processors that handle data, and define security responsibilities in appropriate agreements.
+
+### Access control
+
+- Give each user a unique account and grant only the access needed for their role and duties.
+- Use strong authentication, including multi-factor authentication where supported, especially for remote or privileged access.
+- Approve access before it is granted, review permissions regularly, and promptly change or revoke access when roles change or access is no longer needed.
+- Separate privileged administration from routine user activity and protect administrative credentials.
+- Keep appropriate audit records of access to sensitive systems and review alerts or unusual activity.
+
+### Data protection measures
+
+- Collect and retain only the information needed for a defined purpose; apply retention schedules and securely dispose of data when no longer required.
+- Protect data in transit and at rest with appropriate encryption and key management.
+- Use pseudonymised or synthetic information for development and testing wherever possible; never store real patient data or secrets in this repository.
+- Protect backups, test recovery procedures, and ensure backup retention is consistent with data-retention requirements.
+- Maintain a documented process to identify, contain, assess, record, and escalate security incidents and suspected data breaches.
+- Keep systems supported and patched, and monitor for vulnerabilities and security events.
+
+DSPT requirements and evidence depend on the organisation and services in scope. The controls above are planning guidance; the organisation should complete the applicable DSPT assessment and retain evidence rather than treating this summary as proof of compliance.
 
 ## 2. UK GDPR and personal data
 
@@ -59,5 +77,6 @@ Applying UK GDPR principles and DSP Toolkit guidance helps protect personal info
 
 ## References
 
+- [NHS Data Security and Protection Toolkit](https://www.dsptoolkit.nhs.uk/)
 - [Information Commissioner's Office (ICO): UK GDPR guidance and resources](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/)
 - [UK GDPR, Regulation (EU) 2016/679](https://www.legislation.gov.uk/eur/2016/679/contents)
